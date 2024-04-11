@@ -1,0 +1,170 @@
+#navbar{
+    display: flex;
+    justify-content: space-around;
+}
+#landing-page{
+    display: flex;
+    justify-content: space-around;
+}
+#footer{
+    display: flex;
+    justify-content: space-around;
+    gap: 150px;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+#main-body{
+    border: 2px solid black;
+    border-color: black;
+    border-radius: 25px;
+}
+#logo1{
+    font-size: x-large;
+}
+#search{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(250,207,204);
+}
+#sign-up{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(48,41,55);
+    color: white;
+}
+#upper-body{
+    background-color: rgb(250,207,204);
+    border-radius: 20px;
+}
+#question{
+    border-radius: 20px;
+    padding: 20px;
+}
+#study-image{
+    border-radius: 20px;
+}
+#background-body{
+    background-color: blueviolet;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 600px){
+    #navbar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #landing-page{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        /*gap: 150px;*/
+        background-color: white;
+        border-radius: 5px;
+        
+    }
+    #main-body{
+        border: 2px solid black;
+        border-color: black;
+        border-radius: 25px;
+    }
+    #logo1{
+        font-size: x-large;
+    }
+    #search{
+        border-radius: 20px;
+        padding: 10px;
+        background-color: rgb(250,207,204);
+    }
+    #sign-up{
+        border-radius: 20px;
+        padding: 10px;
+        background-color: rgb(48,41,55);
+        color: white;
+    }
+    #upper-body{
+        background-color: rgb(250,207,204);
+        border-radius: 20px;
+    }
+    #question{
+        border-radius: 20px;
+        padding: 20px;
+    }
+    #study-image{
+        border-radius: 20px;
+    }
+    #background-body{
+        background-color: blueviolet;
+        padding: 50px;
+        border-radius: 20px;
+    }
+
+
+}
+
+@media only screen and (max-width: 1000px){
+    #navbar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #landing-page{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        /*gap: 150px;*/
+        background-color: white;
+        border-radius: 5px;
+        
+    }
+    #main-body{
+        border: 2px solid black;
+        border-color: black;
+        border-radius: 25px;
+    }
+    #logo1{
+        font-size: x-large;
+    }
+    #search{
+        border-radius: 20px;
+        padding: 10px;
+        background-color: rgb(250,207,204);
+    }
+    #sign-up{
+        border-radius: 20px;
+        padding: 10px;
+        background-color: rgb(48,41,55);
+        color: white;
+    }
+    #upper-body{
+        background-color: rgb(250,207,204);
+        border-radius: 20px;
+    }
+    #question{
+        border-radius: 20px;
+        padding: 20px;
+    }
+    #study-image{
+        border-radius: 20px;
+    }
+    #background-body{
+        background-color: blueviolet;
+        padding: 50px;
+        border-radius: 20px;
+    }
+
+
+}
+
