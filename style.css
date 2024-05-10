@@ -1,184 +1,400 @@
+#entire-screen{
+  width: 1820px;
+  height: 870px;
+  border-radius: 50px;
+  background-color:rgb(256, 211, 218);
+}
+#landingpage{
+  width: 1830px;
+  height: 700px;
+  border-radius: 50px;
+  background-color: pinkrgb(256, 211, 218);
+}
 #navbar{
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  gap: 25%;
 }
-#message{
-    font-size: larger;
+#course-information{
+  display: flex;
+ gap: 15%;
 }
-#landing-page{
-    display: flex;
-    justify-content: space-around;
+#logo{
+  font-size: xx-large;
+  margin-left: 60px;
+  margin-top: 10px;
+  font-family: serif;
+  font-weight: 50;
 }
-#footer{
-    display: flex;
-    justify-content: space-around;
-    gap: 150px;
-    background-color: white;
-    border-radius: 5px;
-    
+#course-offers{
+  display: flex;
+  gap: 3px;
 }
-#main-body{
-    border: 2px solid black;
-    border-color: black;
-    border-radius: 25px;
+#search-bar{
+  width: 500px;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 20px;
+  gap: 2%;
+  background-color: transparent;
 }
-#logo1{
-    font-size: x-large;
-}
-#search{
-    border-radius: 20px;
-    padding: 10px;
-    background-color: rgb(250,207,204);
+#side-navbar{
+  display: flex;
+  gap: 15%;
+  width: 800px;
 }
 #sign-up{
+  width: 150px;
+  height: 40px;
+  border-radius: 25px;
+  margin-top: 10px;
+  background-color: black;
+  -webkit-text-fill-color: white;
+}
+#slogan-tag{
+  display: flex;
+  gap: 20%;
+}
+#slogan-info{
+  margin-left: 60px;
+}
+#slogan{
+  font-size: xxx-large;
+}
+#learn-inquiry{
+  width: 300px;
+  height: 40px;
+  border-radius: 25px;
+}
+#primary-image{
+  border-radius: 50px;
+  object-fit: cover;
+}
+#footer{
+  width: 1820px; 
+  display: flex;
+  gap: 300px;
+  border-radius: 5px;
+  font-size: x-large;
+  background-color: white;
+}
+#stats{
+  margin-left: 150px;
+}
+#primary-image{
+  width: 600px;
+  height: 600px;
+}
+
+@media screen and (min-width: 280px) and (max-width: 668px){
+  #entire-screen{
+    width:100%;
+    height: 870px;
+    border-radius: 50px;
+    background-color:rgb(256, 211, 218);
+  }
+  #landingpage{
+    width: 100%;
+    height: 700px;
+    border-radius: 50px;
+    background-color: pinkrgb(256, 211, 218);
+  }
+  #navbar{
+    display: flex;
+    flex-wrap: wrap;
+   /* gap: 25%;*/
+  }
+  #course-information{
+    display: flex;
+    flex-wrap: wrap;
+    /*gap: 15%;*/
+  }
+  #logo{
+    font-size: xx-large;
+    /*margin-left: 60px;
+    margin-top: 10px;*/
+    font-family: serif;
+    font-weight: 50;
+  }
+  #course-offers{
+    display: flex;
+    flex-wrap: wrap;
+    /*gap: 3px;*/
+  }
+  #search-bar{
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
     border-radius: 20px;
-    padding: 10px;
-    background-color: rgb(48,41,55);
-    color: white;
+    /*gap: 2%;*/
+    background-color: transparent;
+  }
+  #side-navbar{
+    display: flex;
+    flex-wrap:wrap;
+    /*gap: 15%;*/
+    /*width: 800px;*/
+  }
+  #sign-up{
+    /*width: 150px;*/
+    height: 40px;
+    border-radius: 25px;
+    /*margin-top: 10px;*/
+    background-color: black;
+    -webkit-text-fill-color: white;
+  }
+  #slogan-tag{
+    display: flex;
+    flex-wrap: wrap;
+    /*gap: 20%;*/
+  }
+  #slogan-info{
+    /*margin-left: 60px;*/
+  }
+  #slogan{
+    font-size: xx-small;
+  }
+  #learn-inquiry{
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+  }
+  #primary-image{
+    border-radius: 50px;
+    object-fit: cover;
+  }
+  #footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    border-radius: 5px;
+    font-size: x-small;
+    background-color: white;
+  }
+  #stats{
+    margin-left:0px;
+  }
+  #primary-image{
+    width: 300px;
+    height: 300px;
+  }
+
 }
-#upper-body{
-    background-color: rgb(250,207,204);
+@media screen and (min-width: 760px) and (max-width: 1025px){
+  #entire-screen{
+    width:100%;
+    height: 870px;
+    border-radius: 50px;
+    background-color:rgb(256, 211, 218);
+  }
+  #landingpage{
+    width: 100%;
+    height: 700px;
+    border-radius: 50px;
+    background-color: pinkrgb(256, 211, 218);
+  }
+  #navbar{
+    display: flex;
+    flex-wrap: wrap;
+   /* gap: 25%;*/
+  }
+  #course-information{
+    display: flex;
+    flex-wrap: wrap;
+    /*gap: 15%;*/
+  }
+  #logo{
+    font-size: xx-large;
+    /*margin-left: 60px;
+    margin-top: 10px;*/
+    font-family: serif;
+    font-weight: 50;
+  }
+  #course-offers{
+    display: flex;
+    flex-wrap: wrap;
+    /*gap: 3px;*/
+  }
+  #search-bar{
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
     border-radius: 20px;
-    padding-bottom: 50px;
+    /*gap: 2%;*/
+    background-color: transparent;
+  }
+  #side-navbar{
+    display: flex;
+    flex-wrap:wrap;
+    /*gap: 15%;*/
+    /*width: 800px;*/
+  }
+  #sign-up{
+    /*width: 150px;*/
+    height: 40px;
+    border-radius: 25px;
+    /*margin-top: 10px;*/
+    background-color: black;
+    -webkit-text-fill-color: white;
+  }
+  #slogan-tag{
+    display: flex;
+    flex-wrap: wrap;
+    /*gap: 20%;*/
+  }
+  #slogan-info{
+    /*margin-left: 60px;*/
+  }
+  #slogan{
+    font-size: xx-small;
+  }
+  #learn-inquiry{
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+  }
+  #primary-image{
+    border-radius: 50px;
+    object-fit: cover;
+  }
+  #footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    border-radius: 5px;
+    font-size: x-small;
+    background-color: white;
+  }
+  #stats{
+    margin-left:0px;
+  }
+  #primary-image{
+    width: 300px;
+    height: 300px;
+  }
+
 }
-#question{
+@media screen and (min-width: 1026px) and (max-width: 1200px){
+  #entire-screen{
+    width:100%;
+    height: 870px;
+    border-radius: 50px;
+    background-color:rgb(256, 211, 218);
+  }
+  #landingpage{
+    width: 100%;
+    height: 700px;
+    border-radius: 50px;
+    background-color: pinkrgb(256, 211, 218);
+  }
+  #navbar{
+    display: flex;
+    flex-wrap: wrap;
+   /* gap: 25%;*/
+  }
+  #course-tag{
+    display: flex;
+    flex-wrap: wrap;
+    /*gap: 15%;*/
+  }
+  #logo{
+    font-size: xx-large;
+    /*margin-left: 60px;
+    margin-top: 10px;*/
+    font-family: serif;
+    font-weight: 50;
+  }
+  #course-offers{
+    display: flex;
+    flex-wrap: wrap;
+    /*gap: 3px;*/
+  }
+  #search-bar{
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
     border-radius: 20px;
-    padding: 20px;
-}
-#study-image{
-    border-radius: 20px;
-}
-#background-body{
-    background-color: blueviolet;
-    padding: 50px;
-    border-radius: 20px;
-}
-
-@media only screen and (max-width: 600px){
-    #navbar{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    #message{
-        font-size: larger;
-    }
-    #landing-page{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    #footer{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        /*gap: 150px;*/
-        background-color: white;
-        border-radius: 5px;
-        
-    }
-    #main-body{
-        border: 2px solid black;
-        border-color: black;
-        border-radius: 25px;
-    }
-    #logo1{
-        font-size: x-large;
-    }
-    #search{
-        border-radius: 20px;
-        padding: 10px;
-        background-color: rgb(250,207,204);
-    }
-    #sign-up{
-        border-radius: 20px;
-        padding: 10px;
-        background-color: rgb(48,41,55);
-        color: white;
-    }
-    #upper-body{
-        background-color: rgb(250,207,204);
-        border-radius: 20px;
-        padding-bottom: 50px;
-    }
-    #question{
-        border-radius: 20px;
-        padding: 20px;
-    }
-    #study-image{
-        border-radius: 20px;
-    }
-    #background-body{
-        background-color: blueviolet;
-        padding: 50px;
-        border-radius: 20px;
-    }
-
+    /*gap: 2%;*/
+    background-color: transparent;
+  }
+  #side-navbar{
+    display: flex;
+    flex-wrap:wrap;
+    /*gap: 15%;*/
+    /*width: 800px;*/
+  }
+  #sign-up{
+    /*width: 150px;*/
+    height: 40px;
+    border-radius: 25px;
+    /*margin-top: 10px;*/
+    background-color: black;
+    -webkit-text-fill-color: white;
+  }
+  #slogan-tag{
+    display: flex;
+    flex-wrap: wrap;
+    /*gap: 20%;*/
+  }
+  #slogan-info{
+    /*margin-left: 60px;*/
+  }
+  #slogan{
+    font-size: xx-small;
+  }
+  #learn-inquiry{
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+  }
+  #primary-image{
+    border-radius: 50px;
+    object-fit: cover;
+  }
+  #footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    border-radius: 5px;
+    font-size: x-small;
+    background-color: white;
+  }
+  #stats{
+    margin-left:0px;
+  }
+  #primary-image{
+    width: 300px;
+    height: 300px;
+  }
 
 }
 
-@media only screen and (max-width: 1000px){
-    #navbar{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    #message{
-        font-size: larger;
-    }
-    #landing-page{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    #footer{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        /*gap: 150px;*/
-        background-color: white;
-        border-radius: 5px;
-        
-    }
-    #main-body{
-        border: 2px solid black;
-        border-color: black;
-        border-radius: 25px;
-    }
-    #logo1{
-        font-size: x-large;
-    }
-    #search{
-        border-radius: 20px;
-        padding: 10px;
-        background-color: rgb(250,207,204);
-    }
-    #sign-up{
-        border-radius: 20px;
-        padding: 10px;
-        background-color: rgb(48,41,55);
-        color: white;
-    }
-    #upper-body{
-        background-color: rgb(250,207,204);
-        border-radius: 20px;
-        padding-bottom: 50px;
-    }
-    #question{
-        border-radius: 20px;
-        padding: 20px;
-    }
-    #study-image{
-        border-radius: 20px;
-    }
-    #background-body{
-        background-color: blueviolet;
-        padding: 50px;
-        border-radius: 20px;
-    }
 
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
